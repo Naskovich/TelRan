@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.item-1 {
+    background-color: red;
+    bottom: 70%;
+    right: 70%;
+}
+
+.item-2 {
+    background-color: blue;
+    bottom: 60%;
+    right: 60%;
+}
+
+.item-3 {
+    background-color: green;
+    bottom: 65%;
+    right: 65%;
+}
+
+.item-3:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(-45deg);
+    transition: 5s;
+}
