@@ -1,84 +1,12 @@
-Loading...
- 
-Welcome to JS/Linux (i586)
- 
-Use 'vflogin username' to connect to your account.
-You can create a new account at https://vfsync.org/signup .
-Use 'export_file filename' to export a file to your computer.
-Imported files are written to the home directory.
- 
-localhost:~# pwd
-/root
-localhost:~# mkdir -p start
-localhost:~# ls
-bench.py    hello.c     hello.js    readme.txt  start
-localhost:~# touch 1.txt
-localhost:~# ls
-1.txt       bench.py    hello.c     hello.js    readme.txt  start
-localhost:~# >> "Start"
-localhost:~# tree
-.
-├── 1.txt
-├── Start
-├── bench.py
-├── hello.c
-├── hello.js
-├── readme.txt
-└── start
- 
-1 directory, 6 files
-localhost:~# date >> "22042023"
-localhost:~# tree
-.
-├── 1.txt
-├── 22042023
-├── Start
-├── bench.py
-├── hello.c
-├── hello.js
-├── readme.txt
-└── start
- 
-1 directory, 7 files
-localhost:~# mkdir -p task
-localhost:~# ls
-1.txt       Start       hello.c     readme.txt  task
-22042023    bench.py    hello.js    start
-localhost:~# touch start.txt
-localhost:~# tree
-.
-├── 1.txt
-├── 22042023
-├── Start
-├── bench.py
-├── hello.c
-├── hello.js
-├── readme.txt
-├── start
-├── start.txt
-└── task
-2 directories, 8 files
-localhost:~# cp 1.txt task/
-localhost:~# tree
-.
-├── 1.txt
-├── 22042023
-├── Start
-├── bench.py
-├── hello.c
-├── hello.js
-├── readme.txt
-├── start
-├── start.txt
-└── task
-    └── 1.txt
- 
-2 directories, 9 files
-localhost:~# df -h |tail -4
-/dev/root                 4.9G      2.3G      2.6G  47% /
-devtmpfs                 91.3M         0     91.3M   0% /dev
-tmpfs                    91.4M      8.0K     91.4M   0% /run
-none                     91.4M         0     91.4M   0% /dev/shm
-localhost:~# cd /
-localhost:/# pwd
-/
+ cd /cc localhost:~# cd /home
+localhost:/home# mkdir -p /home/user/start/
+localhost:/home# cd /home/user/start/
+localhost:/home/user/start# touch 1.txt
+localhost:/home/user/start# echo "Start" >> 1.txt
+localhost:/home/user/start# date >> 1.txt
+localhost:/home/user/start# cd /
+localhost:/# mkdir -p /opt/task/
+localhost:/# cp /home/user/start/1.txt /opt/task/start.txt
+localhost:/# ls -la
+localhost:/# ls -la | tail -4 >> /opt/task/start.txt
+localhost:/# cat /opt/task/start.txt
