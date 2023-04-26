@@ -1,0 +1,9 @@
+   0 mkdir -p /opt/test/Halina
+   1 cat readme.txt >> /opt/test/Halina/test.txt
+   2 ps -ef | head -2 >> /opt/test/Halina/test.txt 
+   3 mkdir -p /tmp/test2/Halina2
+   4 mv /opt/test/Halina/test.txt  /tmp/test2/Halina2/new2.txt
+   5 vi /tmp/test2/Halina2/new2.txt 
+   6 cat /tmp/test2/Halina2/new2.txt 
+   7 history
+   8 history >> homework.txt
