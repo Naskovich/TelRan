@@ -1,0 +1,21 @@
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+aside {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: aquamarine;
+    height: 100%;
+    width: 250px;
+    transition: 1s;
+    opacity: 0;
+}
+.is-open {
+    transform: translateX(0);
+    opacity: 0;
+}
