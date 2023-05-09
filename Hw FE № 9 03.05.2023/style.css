@@ -1,0 +1,44 @@
+.is-dark {
+  width: 200px;
+  height: 200px;
+  transition: 3s;
+}
+button {
+  width: 150px;
+  height: 50px;
+  background-color: grey;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin: 10px;
+  display: inline-block;
+}
+.square1 {
+  width: 200px;
+  height: 200px;
+  background-color:pink;
+  margin: 10px;
+  display: inline-block;
+}
+
+.square2 {
+  width: 150px;
+  height: 150px;
+  background-color: aquamarine;
+  margin: 10px;
+  display: inline-block;  
+}
+p {
+  color:rgb(231, 47, 255);
+  font-size: 30px;
+  transition: 2s;
+}
+p1 {
+  color:palevioletred;
+  font-size: 30px;
+  transition: 5s;
+}
+
