@@ -1,0 +1,21 @@
+Vasiliy@magazdetalei MINGW64 ~
+$ ssh -i ~/.ssh/id_rsa ec2-user@linux.telran-edu.de
+Last login: Thu May 11 17:51:43 2023 from 178235188136.dynamic-4-waw-k-3-0-0.vectranet.pl
+
+       __|  __|_  )
+       _|  (     /   Amazon Linux 2 AMI
+      ___|\___|___|
+
+https://aws.amazon.com/amazon-linux-2/
+9 package(s) needed for security, out of 22 available
+Run "sudo yum update" to apply all updates.
+[ec2-user@ip-172-31-33-20 ~]$ cd /opt/280323_morning/HalinaNaskovich
+[ec2-user@ip-172-31-33-20 HalinaNaskovich]$ ./myfirstbashscript.sh
+05/11/23
+hello Halina!
+total 8
+-rw-rw-r-- 1 ec2-user ec2-user 108 May 11 12:24 Halinka
+-rwxrwxr-x 1 ec2-user ec2-user  85 May 11 18:21 myfirstbashscript.sh
+6
+You have new mail in /var/spool/mail/ec2-user
+[ec2-user@ip-172-31-33-20 HalinaNaskovich]$
