@@ -1,4 +1,4 @@
-package ScannerHW;
+package HomeWork;
 
 import java.util.Random;
 
