@@ -1,0 +1,49 @@
+Task number 1.
+
+Tailoring of women's clothing:
+1. The process of accepting an order from a customer (Create)
+2. Procurement process (fabrics, accessories...)(Create)
+3. The design process (pattern)
+4. Production process(tailoring)
+5. The process of acceptance to the warehouse(Create)
+6. Implementation process(Create)
+7. Shipping Process (Update)
+8. Customer Feedback(Create)
+9. Product return process(Create)
+10.Refund Process(Create)
+
+Task number 2.
+
+SQL Statement:
+
+SELECT 
+ProductName, Price
+FROM Products
+WHERE
+Price >=20
+AND 
+Price <=200
+
+
+Task number 3.
+SQL Statement:
+SELECT * 
+FROM Products
+ORDER BY Price DESC, SupplierID
+
+
+Task number 4.
+SQL Statement:
+
+SELECT ProductName,
+Price * .875 AS Price_low
+FROM Products
+
+
+Task number 5.
+
+UPDATE Suppliers
+SET Phone ='1111111'
+WHERE SupplierID=3 
+
+
