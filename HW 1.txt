@@ -1,0 +1,49 @@
+Задача № 1.
+
+Пошив женской одежды:
+1. Процесс принятия заказа от клиента(Create)
+2. Процесс закупки (ткани, фурнитура...)(Create)
+3. Процесс конструирования(лекало)
+4. Процесс производства(пошив)
+5. Процесс принятия на склад(Create)
+6. Процесс реализации(Create)
+7. Процесс отгрузки (Update)
+8. Отзыв заказчика(Create)
+9. Процесс возврата товара(Create)
+10.Процесс возврата денег(Create)
+
+Задача № 2.
+
+SQL Statement:
+
+SELECT 
+ProductName, Price
+FROM Products
+WHERE
+Price >=20
+AND 
+Price <=200
+
+
+Задача № 3.
+SQL Statement:
+SELECT * 
+FROM Products
+ORDER BY Price DESC, SupplierID
+
+
+Задача № 4.
+SQL Statement:
+
+SELECT ProductName,
+Price * .875 AS Price_low
+FROM Products
+
+
+Задача № 5.
+
+UPDATE Suppliers
+SET Phone ='1111111'
+WHERE SupplierID=3 
+
+
