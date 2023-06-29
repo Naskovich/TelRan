@@ -1,0 +1,54 @@
+HW Git №1
+
+Task №1
+
+Как скопировать на свой компьютер репозиторий из github.com, что должно быть сделано предварительно?
+
+1. Нужно перейти на главную страницу репозитория, на GitHub.com
+
+https://github.com/Naskovich/Naskovich
+
+2. Над списком файлов щелкнуть <> Code.
+3. Скопировать URL-адрес репозитория (чтобы клонировать репозиторий с помощью ключа SSH, щелкнуть SSH, а затем выбрать сopy ).
+
+git@github.com:Naskovich/Naskovich.git
+
+4. Открыть GIT Bash.
+
+5. Изменить текущий рабочий каталог на расположение, где должен находиться клонированный каталог.
+
+6. Ввести git clone и вставить URL-адрес, скопированный ранее.
+
+git clone git@github.com:Naskovich/Naskovich.git
+
+7. Нажать клавишу ВВОД, чтобы создать локальный клон.
+8. $ ls -al
+9. cd Naskovich
+
+Task №2
+Как создать git репозиторий из локального каталога на своем компьютере. Как его отправить на github.com?
+
+1. $ nano song.txt
+2. $ ls -al
+3. $ git status
+4. $ git add song.txt
+5. $ git status
+6. $ git commit -m "Add new file song.txt"
+7. $ git status
+8. $ git push
+9. $ git log
+
+Task №3
+Как получить на локальный компьютер изменения с github.com
+
+1.git pull
+2.ls -al
+3.cat README.md
+
+
+Task №4
+Какую информацию нам дают команда :
+
+git status - Show the working tree status
+git log - Show commit logs
+git remote -v  - Manage set of tracked repositories verbose
