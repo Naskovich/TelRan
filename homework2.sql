@@ -28,9 +28,11 @@ WHERE Country IN ('USA', 'Germany');
 Задача 4.Вывести все товары до 20 EUR
 из категорий 3 и 6 по убыванию цены.
 
-SELECT *
+SELECT ProductName, Price
 FROM Products
 WHERE
+Price <=20
+AND
 CategoryID IN (3,6)
 ORDER BY Price DESC
 
